@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida Sana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Comida Sana</h1>
+        <p>Dirección: Calle Principal del Lago 5, Caracas</p>
+        <p>Teléfono: 555-1234598</p>
+    </header>
+    <section>
+        <h2>Descripción</h2>
+        <p>Comida Sana es un restaurante comprometido con ofrecer platos saludables y deliciosos, utilizando ingredientes frescos y de la más alta calidad...</p>
+    </section>
+    <section>
+        <h2>Menú</h2>
+        <h3>Entradas</h3>
+        <ul>
+            <li>Ensalada Cesar</li>
+            <li>Sopa de verduras</li>
+            <li>Hummus con pan pita</li>
+        </ul>
+        <h3>Platos principales</h3>
+        <ul>
+            <li>Salmón a la plancha con verduras</li>
+            <li>Pasta de lentejas con pesto</li>
+            <li>Hamburguesa vegetariana</li>
+        </ul>
+        <h3>Postres</h3>
+        <ul>
+            <li>Tarta de frutas</li>
+            <li>Mousse de chocolate sin azúcar</li>
+            <li>Helado de yogurt</li>
+        </ul>
+        <h3>Bebidas</h3>
+        <ul>
+            <li>Jugos naturales</li>
+            <li>Smoothies</li>
+            <li>Té e infusiones</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Horarios</h2>
+        <ul>
+            <li>Lunes: Cerrado</li>
+            <li>Martes a Domingo 12:00 p.m. - 11:00 p.m.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Reserva una Mesa</h2>
+        <form id="reservation-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="people">Cantidad de personas:</label>
+            <input type="number" id="people" name="people" required>
+            <label for="datetime">Fecha y Hora:</label>
+            <input type="datetime-local" id="datetime" name="datetime" required>
+            <label for="occasion">¿Es una ocasión especial?</label>
+            <input type="text" id="occasion" name="occasion">
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Comida Sana</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
